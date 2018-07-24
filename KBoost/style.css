@@ -116,7 +116,15 @@ footer p
 	text-decoration: none;
 }
 
-#download_btn img
+#download_btn a img
 {
 	float: left;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+#screenshots img
+{
+	width: 25em;
+	height: auto;
 }
