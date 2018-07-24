@@ -18,8 +18,8 @@ header
 
 .logo
 {
-	height: 40px;
-	padding: 20px 0px 0px 0px;
+	height: 2.5em;
+	padding: 1em 0 0 0;
 	margin: 0 auto;
 	display: inline-block;
 	text-align: center;
@@ -28,7 +28,7 @@ header
 .logo *
 {
 	display: inline;
-	height: 40px;
+	height: 3em;
 	vertical-align: middle;
 }
 
@@ -40,6 +40,8 @@ header
 
 .logo img
 {
+	height: 2.5em;
+	width: 2.5em;
 	margin-right: 1em;
 }
 
@@ -51,7 +53,7 @@ nav ul
 nav ul li
 {
 	list-style-type: none;
-	padding: 20px;
+	padding: 1em;
 	display: inline-block;
 }
 
@@ -63,12 +65,12 @@ nav ul li a
 
 article
 {
-	padding: 20px;
+	padding: 1em;
 }
 
 section
 {
-	margin-bottom: 40px;
+	margin-bottom: 3em;
 }
 
 #feat_lst
@@ -83,18 +85,18 @@ dt
 
 dd
 {
-	margin-left: 10px;
+	margin-left: 1em;
 }
 
 .feature
 {
-	padding: 0px 0px 20px 0px;
+	padding: 0 0 1em 0;
 }
 
 footer
 {
 	display: block;
-	height: 60px;
+	height: 4em;
 	background-image: url('img/blur.jpg');
 	background-size: cover;	
 	background-color: black;
@@ -104,7 +106,7 @@ footer
 footer p
 {
 	margin: 0;
-	padding: 20px;
+	padding: 1em;
 	color: white;
 }
 
