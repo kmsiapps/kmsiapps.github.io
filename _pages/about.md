@@ -2,25 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: >
+  <a href='mailto:hanju.yoo@yonsei.ac.kr'>E-mail</a> / <a href='https://github.com/kmsiapps'>Github</a> / <a href='https://www.linkedin.com/in/kmsiapps'>LinkedIn</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_hanju.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a Ph.D. student researching for **deep learning for communications** and **information theory for deep learning** at the [Intelligence Networking Lab.](https://cbchae.org), Yonsei University, Korea. Before joining the lab, I earned a B.E. from the [School of Integrated Technology](https://sit.yonsei.ac.kr) at Yonsei University, graduating with the highest honors. My research interest includes semantic communications, learned image compression, and computer vision. I was an exhibitor at [CES 2023 on behalf of Yonsei University](https://www.yonsei.ac.kr/en_sc/yonsei_news.jsp?article_no=213280&mode=view), and am a recipient of the [2022 Qualcomm IT Tour Program](https://www.etnews.com/20220818000080). Committed to community engagement, I have served as a teaching assistant for three years and have two years of student council experience. I also love to solve real-world problems by creating automated, sustainable, and systematic solutions.

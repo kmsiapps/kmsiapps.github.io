@@ -2,96 +2,82 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Hanju Yoo
+    - name: Affiliation
+      value: School of Integrated Technology, Yonsei University, Korea
+    - name: Contact
+      value: hanju.yoo@yonsei.ac.kr
     - name: Date of Birth
-      value: 14th March 1879
+      value: 12th Oct 1999
     - name: Languages
-      value: English, German
+      value: English (Fluent), Korean (Native)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor in Engineering
+      institution: School of Integrated Technology, Yonsei University, Korea
+      year: 2018 - 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Graduated with Highest Honors (<1% in college of engineering, ranked 1st)
+        - Full Scholarship
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching Assitant
+      institution: Yonsei University
+      year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Computational Thinking and SW Programming
+        - Led weekly 4-hour Python lectures and prepared course matrials/exams
+    - title: Head Developer
+      institution: Yonsei University Student Council
+      year: 2019 - 2020
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Designed and built the community webpage using React and Ruby on Rails, deployed on AWS EC2
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2018.03
+      title: Full Scholarship for Undergraduate
+      description: Issued by Ministry of Science and ICT of Korea (MSIP) and National IT Industry Promotion Agency (NIPA)
+    - year: 2021.02
+      title: Graduated with Highest Honors
+      description: <1% in college of engineering, ranked 1st
+    - year: 2022.08
+      title: Receipient of Qualcomm IT Tour Program
+      description: Participiated in the Qualcomm IT Tour, a fully-funded program providing a visit of Qualcomm's San Diego headquarters with executive presentations and networking opportunities.
+    - year: 2023.02
+      title: Exhibitor, CES 2023
+      description: Demonstrated real-time wireless semantic communications testbed in behalf of Yonsei college of engineering
 
-- title: Academic Interests
+- title: Projects
+  type: time_table
+  contents:
+    - title: KBoost
+      year: 2011-2018
+      description: A Windows process cleaner with 50k+ downloads, featured in <a href='https://it.donga.com/23713/'>IT Donga software reviews</a>
+    - title: <a href='https://github.com/kmsiapps/python-assignments-evaluator'>Python Assignment Evaluator</a>
+      year: 2020
+      description: An automated evaluator for Python assignments, featuring score assessment and diff visualization.
+    - title: <a href='https://github.com/kmsiapps/pmsim'>PMSim</a>
+      year: 2021
+      description: A VM migration simulator for online IDE service, incorporating a novel load-prediction algorithm designed to optimize VM migrations and fully utilize the capacity of physical machines.
+    - title: <a href='https://github.com/kmsiapps/Semantic-Communications-with-a-Vision-Transformer'>Real-time Wireless Semantic Communications Testbed</a>
+      year: 2022
+      description: A world-first real-time wireless semantic communications (deep learning-based wireless transmission) testbed, based on NI USRP software-defined radio device.
+
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages.
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Korean (Native), English (Fluent, TEPS 521; Equivalent to TOEIC 980)
+    - title: EECS Backgrounds
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Computational Theory, Computer Networks, Operating Systems, Computer Architecture, Parallel/GPU Computing, Compiler Design, and Computational Theory
+    - title: Programming
+      items:
+        - Python, Matlab, Tensorflow, C/C++ (Fluent), Javascript, Ruby, CUDA, LabVIEW (Intermediate)
