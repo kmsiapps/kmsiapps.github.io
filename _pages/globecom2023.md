@@ -32,4 +32,4 @@ We plan to demonstrate real-time wireless transmission of the selfie with the pr
   </figcaption>
 </figure>
 
-Each image corresponds to the original, zoomed, reconstructed, and conventional method-based image, respectively. We assumed AWGN channel with 7~10 dB SNR, and used JPEG+Turbo codes for the conventional image transmission system.
+Each image corresponds to the original, zoomed, reconstructed image, respectively. We assumed AWGN channel with 10 dB SNR.
