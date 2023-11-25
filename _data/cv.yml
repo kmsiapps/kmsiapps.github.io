@@ -6,7 +6,7 @@
     - name: Affiliation
       value: School of Integrated Technology, Yonsei University, Korea
     - name: Contact
-      value: hanju.yoo@yonsei.ac.kr
+      value: hanju.yoo_at_yonsei.ac.kr
     - name: Date of Birth
       value: 12th Oct 1999
     - name: Languages
@@ -72,7 +72,7 @@
 - title: Skills
   type: nested_list
   contents:
-    - title: Languages.
+    - title: Languages
       items: 
         - Korean (Native), English (Fluent, TEPS 521; Equivalent to TOEIC 980)
     - title: EECS Backgrounds
